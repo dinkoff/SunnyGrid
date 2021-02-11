@@ -1,0 +1,49 @@
+// Image path
+$image-url: "../images/" !default;
+
+// Fonts
+$main-font:		"Roboto", sans-serif;
+$icons:    		"FontAwesome";
+
+// Base font-size
+$base-fz: 16px;
+
+// Colors
+$main:		#24272b;
+$secondary: #FFC700;
+
+$complimentary: #0010B3;
+$secondary-d: #B38C00;
+
+
+
+$light:		#fff;
+$gray:	   #363636;
+$dark:      #1e1e1e;
+
+
+
+// Grid base options
+$row-width: 1200px;
+$col-gap:	10px;
+
+// Mobile navigation icon
+	// ionicons
+		// $open-nav:	'\f20d';
+		// $close-nav:	'\f2d7';
+
+	// Fontawesome
+		$open-nav:	'\f0c9';
+		$close-nav:	'\f00d';
+
+// Responsive breakpoints
+$breakpoints: (
+	'tiny':  480px,
+	'small': 640px,
+	'medium':768px,
+	'large': 992px,
+	'giant': 1200px,
+	// 'layout': $row-width, //**** If its bigger than "Giant"
+);
+// Number of columns
+$column-count: 12;

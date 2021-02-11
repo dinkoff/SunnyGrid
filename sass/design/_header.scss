@@ -1,0 +1,18 @@
+/***** Header *****/
+header {
+    background-color: $secondary;
+    &.sticky_nav{
+        .fixed_cont{
+            width: 100%;
+            z-index: 10;
+            @include position(fixed, 0 null null 0);
+        }
+    }
+    .header_logo {
+        display: block;
+        max-width: 376px;
+        img {
+            width: 100%;
+        }
+    }
+}
